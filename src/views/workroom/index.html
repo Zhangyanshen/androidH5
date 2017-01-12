@@ -1,0 +1,159 @@
+<style>
+    /*@import url('../../../dist/css/workroom.css');*/
+   @import url('../../../dist/css/workroom.css');
+</style>
+<head>
+	<link href="../../../dist/css/workroom.css" type="text/css" />
+</head>
+<div class="workroom">
+    <div class="banner">
+        <div class="bannerHead headImg">
+            <img class="headPic" src="../../../images/head.png" alt=""/>
+        </div>
+        <div class="bannerHead headName">
+            <span>张看山</span>
+            <p>销售 销售一组</p>
+        </div>
+        <div class="bannerHead headSetting" @click="jumpInfoSetting()">
+            <p>个人信息设置</p>
+        </div>
+        <div class="bannerFilter"></div>
+    </div>
+
+    <div class="workroomAll" >
+        <div class="workType">
+            <div class="workList workListBr workListBb">
+                <img src="../../../images/icon/calender@2x.png" alt=""/>
+                <span>工作日历</span>
+                <b class="tipsNumber">3</b>
+            </div>
+            <div class="workList workListBr workListBb" @click="jumpOrderDeal()">
+                <img src="../../../images/icon/orderdeal@2x.png" alt=""/>
+                <span>预约处理</span>
+            </div>
+            <div class="workList workListBr workListBb" @click="jumpTalk()">
+                <img src="../../../images/icon/talk@2x.png" alt=""/>
+                <span>沟通记录</span>
+            </div>
+            <div class="workList workListBb">
+                <img src="../../../images/icon/share@2x.png" alt=""/>
+                <span>分享货客</span>
+            </div>
+            <div class="workList workListBr">
+                <img src="../../../images/icon/comcat@2x.png" alt=""/>
+                <span>合作邀请</span>
+            </div>
+            <div class="workList workListBr" @click="jumpInfo()">
+                <img src="../../../images/icon/infor@2x.png" alt=""/>
+                <span>信息披露</span>
+            </div>
+            <div class="workList workListBr" @click="jumpService()">
+                <img src="../../../images/icon/service@2x.png" alt=""/>
+                <span>服务支持</span>
+            </div>
+            <div class="workList"></div>
+        </div>
+        <div class="myRecord">
+            <ul>
+                <span class="recordIcon"></span>
+                <li class="workListBb">本月业绩击败了<span class="colRed">90%</span>的同级别伙伴</li>
+                <li class="workListBb">
+                    本月已签约 <span class="percent">(完成率 <i class="colBlue">100%</i>)</span>
+                    <b class="fr">654.00万元</b>
+                </li>
+                <li>
+                    本月业绩 <span class="percent">(完成率 <i class="colRed">60%</i>)</span>
+                    <b class="fr">6054.00万元</b>
+                </li>
+            </ul>
+        </div>
+        <div class="workLast">
+            <div class="thisMoney">
+                <span class="moneyIcon"><img src="../../../images/icon/money@2x.png" alt=""/></span>
+                <div class="moneyRight workListBb">
+                    <a class="weui-cell weui-cell_access" href="javascript:;"  @click="jumpMoney()">
+                        <div class="weui-cell__bd">
+                            <p>本月佣金</p>
+                        </div>
+                        <div class="weui-cell__ft">122,542.00</div>
+                    </a>
+                </div>
+            </div>
+            <div class="thisMoney">
+                <span class="moneyIcon"><img src="../../../images/icon/team@2x.png" alt=""/></span>
+                <div class="moneyRight">
+                    <a class="weui-cell weui-cell_access" href="javascript:;" @click="jumpMyTeam()">
+                        <div class="weui-cell__bd">
+                            <p>我的团队</p>
+                        </div>
+                        <div class="weui-cell__ft"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 个人独立理财师-->
+    <div class="workroomAll2" style="display: none">
+        <div class="workType">
+            <div class="workList workListBr workListBb">
+                <img src="../../../images/icon/calender@2x.png" alt=""/>
+                <span>工作日历</span>
+                <b class="tipsNumber">3</b>
+            </div>
+            <div class="workList workListBr workListBb">
+                <img src="../../../images/icon/orderdeal@2x.png" alt=""/>
+                <span>预约处理</span>
+            </div>
+            <div class="workList workListBr workListBb">
+                <img src="../../../images/icon/talk@2x.png" alt=""/>
+                <span>沟通记录</span>
+            </div>
+            <div class="workList workListBb">
+                <img src="../../../images/icon/share@2x.png" alt=""/>
+                <span>分享货客</span>
+            </div>
+            <div class="workList workListBr">
+                <img src="../../../images/icon/comcat@2x.png" alt=""/>
+                <span>服务支持</span>
+            </div>
+            <div class="workList workListBr"></div>
+            <div class="workList workListBr"></div>
+            <div class="workList"></div>
+        </div>
+        <div class="myRecord2">
+            <ul>
+                <span class="recordIcon"></span>
+                <li class="workListBb">本月业绩击败了<span class="colRed">90%</span>的同级别伙伴</li>
+                <li>
+                    本月已签约 <span class="percent">(完成率 <i class="colBlue">100%</i>)</span>
+                    <b class="fr">654.00万元</b>
+                </li>
+            </ul>
+        </div>
+        <div class="workLast">
+            <div class="thisMoney">
+                <span class="moneyIcon"><img src="../../../images/icon/money@2x.png" alt=""/></span>
+                <div class="moneyRight workListBb">
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__bd">
+                            <p>本月佣金</p>
+                        </div>
+                        <div class="weui-cell__ft">122,542.00</div>
+                    </a>
+                </div>
+            </div>
+            <div class="thisMoney">
+                <span class="moneyIcon"><img src="../../../images/icon/team@2x.png" alt=""/></span>
+                <div class="moneyRight">
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__bd">
+                            <p>我的理财顾问</p>
+                        </div>
+                        <div class="weui-cell__ft"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

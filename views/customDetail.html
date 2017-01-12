@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>客户详情</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/custom.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+    <div class="wrap wrapAuto">
+        <div class="addCusTop">
+            客户详情
+            <span class="infoCusBtn" @click="intoEdit()">编辑</span>
+            <!--<img src="../images/icon/add.png" alt="" class="addCusBtn" @click="addTalkRecord()"/>-->
+        </div>
+        <div class="cusTop customerInfo">
+            <ul>
+                <li><span>姓名</span><i>张看三</i></li>
+                <li><span>手机号码</span><i>15666666666</i></li>
+                <li><span>客户来源</span><i>老客户推荐</i></li>
+            </ul>
+        </div>
+        <div class="cusBottom customerInfo">
+            <ul>
+                <li><span>性别</span><i>男</i></li>
+                <li><span>邮箱</span><i>15666666666@163.com</i></li>
+                <li><span>可联系时间</span><i>工作日上班时间</i></li>
+                <li><span>出生日期</span><i>1996-3-2</i></li>
+                <li><span>生日提醒</span><i>已设置</i></li>
+                <li><span>可投资金额</span><i>3000元</i></li>
+                <li><span>客户意向</span><i>非常有意向</i></li>
+                <li><span>投资偏好</span><i>资金/信托/保险</i></li>
+                <li><span>备注</span><i>补偿金贷款成绩看电视</i></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+<script src="../dist/js/customDetail.js"></script>

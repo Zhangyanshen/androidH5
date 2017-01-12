@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <link rel="stylesheet" href="./dist/css/reset.css"/>
+    <link rel="stylesheet" href="./vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="./dist/css/index.css"/>
+    <script src="./vender/weui/weui.min.js"></script>
+</head>
+<body id="app">
+    <div class="wrap wrapflex">
+        <section>
+            <router-view></router-view>
+        </section>
+        <footer>
+            <div class="footerTab">
+                <div class="foot_tab tab_discover">
+                    <a v-link="{ path: '/discover'}">
+                        <img src="./images/icon/discove2@2x.png" alt="">
+                        <span class="colBlue">发现</span>
+                    </a>
+                </div>
+                <div class="foot_tab tab_product">
+                    <a v-link="{ path: '/product'}">
+                        <img src="./images/icon/product@2x.png" alt="">
+                        <span>产品</span>
+                    </a>
+                </div>
+                <div class="foot_tab tab_workroom">
+                    <a v-link="{ path: '/workroom'}">
+                        <img src="./images/icon/wealth@2x.png" alt="">
+                        <span>工作室</span>
+                    </a>
+                </div>
+                <div class="foot_tab tab_adviser">
+                    <a v-link="{ path: '/adviser'}">
+                        <img src="./images/icon/customer@2x.png" alt="">
+                        <span>顾问</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+<script src="./dist/js/jquery-1.12.3.min.js"></script>
+<script src="./dist/js/tab.js"></script>
+<script src="./vender/layer/layer.min.js"></script>
+<script src="./vender/swiper/swiper.min.js"></script>
+<script src="./dist/js/common.js"></script>
+<script src="./dist/js/all.js"></script>

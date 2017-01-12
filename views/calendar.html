@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>工作日历</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/simple_calendar/stylesheet.css"/>
+    <link rel="stylesheet" href="../vender/simple_calendar/simple-calendar.css"/>
+    <link rel="stylesheet" href="../dist/css/calendar.css"/>
+    <style>
+        #calendar {
+            width: 100%
+        }
+
+        .clearfix {
+            margin-top: 0.6rem;;
+            margin-bottom: 20px !important;
+        }
+    </style>
+</head>
+<body class="bgf8">
+    <div class="addCusTop">
+        工作日历
+        <img src="../images/icon/add2.png" alt="" class="editCusBtn" @click="jumpEdit()" />
+    </div>
+    <div class="inner clearfix">
+        <div id='calendar'></div>
+    </div>
+    <div class="panel">
+        <h2>我的日程</h2>
+        <div class="affair">
+            <!--<p class="noAffair">暂无日程</p>-->
+            <ul class="haveAffair">
+                <li @click="jumpSeek()"><span class="colBlue">【日常沟通】</span><i>客户张三今天（2016年11月2日）有日常沟通，请及时跟进。</i></li>
+                <li><span class="colBlue">【日常沟通】</span><i>客户张三今天（2016年11月2日）有日常沟通，请及时跟进。</i></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+<script src="../vender/simple_calendar/simple-calendar.js"></script>
+<script src="../dist/js/calendar.js"></script>

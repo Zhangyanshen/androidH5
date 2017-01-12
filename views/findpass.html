@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>找回密码</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/form.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <form action="" class="wrapForm">
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="tel" maxlength="11" placeholder="请输入手机号" v-model="phone" v-bind="show()"/>
+            </div>
+        </div>
+        <div class="weui-cell weui-cell_vcode border_bottom">
+            <div class="weui-cell__hd">
+                <label class="weui-label">验证码</label>
+            </div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="number" placeholder="请输入验证码" maxlength="4" v-model="codeNumber" v-bind="codes()"  >
+            </div>
+            <div class="weui-cell__ft">
+                <input type="button" class="weui-vcode-btn sendCode" @click="sendPassCode()" value="重新发送" style="border: none;background: #fff">
+            </div>
+        </div>
+        <div v-if="(this.phone).length==11 && (this.codeNumber).length==4" class="weui-btn weui-btn_primary formBtn" @click="passNext()">下一步</div>
+        <div v-else class="weui-btn weui-btn_disabled weui-btn_primary formBtn">下一步</div>
+
+    </form>
+
+</div>
+
+
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+</body>
+</html>

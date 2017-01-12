@@ -1,0 +1,228 @@
+.wrap{
+  height:100%;
+  width:100%;
+}
+.bgGray{
+  background: #f8f8f8;
+}
+.wrapFlex{
+  display: flex;
+  flex-direction: column;
+}
+.titleHeight{
+  height: 0.5rem;
+  line-height: 0.5rem;
+  color: #888;
+  font-size: 0.14rem;
+  padding-left: 0.18rem;
+}
+.titleHeight2{
+  height: 0.86rem;
+  line-height: 0.18rem;
+  padding-top:0.16rem;
+  padding-bottom:0.16rem
+}
+.orderForm{
+  font-size: 0.17rem;
+  .weui-cell{
+    background: #ffffff;
+    height: 0.43rem;
+  }
+  .orderArea{
+    height: 0.75rem;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  }
+}
+.orderBtn{
+  margin: 0.3rem 0.15rem 0 0.15rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+}
+.wenzi{
+  font-size: 0.17rem;
+  color: #b2b2b2;
+  float: right;
+}
+.colorGray{
+  background: #efeff4;
+}
+.colGray{
+  color: #aaa;
+}
+.colBlue{
+  color: #547eef;
+}
+.colOrange{
+  color: #ecaf49;
+}
+.colRed{
+  color: #fa716a;
+}
+.moreLinkman{
+  display: inline-block;
+  height:100%;
+  width: 0.4rem;
+  background: url("../../images/icon/more.png") no-repeat center;
+  background-size: 50%;
+}
+.remarkInput{
+  height: .60rem;
+  width:100%;
+  border:none;
+  resize: none;
+}
+.areaNumber{
+  position: relative;
+}
+.numberAll{
+  position: absolute;
+  right:0;
+  bottom:0.05rem;
+  color: #ddd;
+  font-size:0.09rem;
+}
+.tipsZI{
+  font-size:0.17rem;
+  color: #b2b2b2;
+}
+.borderright{
+  border-right:1px solid #dcdcdc;
+}
+.orderTop{
+  height: 0.5rem;
+  background: #fff;
+  //display: flex;
+  //align-items: center;
+  //position: relative;
+}
+//.orderTop span{
+//  flex: 1;
+//  text-align: center;
+//}
+
+.orderBox{
+  height:100%;
+  width:100%;
+}
+.swiper-container{
+  height:100%;
+  width:100%
+}
+
+.swiper-pagination-bullet{
+  height:0.5rem;
+  width:1.25rem;
+  border-radius: 0;
+  background: #fff;
+  color: #333;
+  line-height: 0.5rem;
+  font-size:0.14rem;
+  opacity:1;
+}
+.swiper-pagination-bullet-active{
+  color: #547eef;
+}
+.swiper-slide-b{
+  height:0.2rem;
+  width:1px;
+  position: absolute;
+  top:0.15rem;
+  left: 1.25rem;
+  transform:scaleX(0.5);
+  color: #dcdcdc;
+
+}
+.swiper-slide-c{
+  height:0.2rem;
+  width:1px;
+  position: absolute;
+  top:0.15rem;
+  left: 2.5rem;
+  transform:scaleX(0.5);
+  color: #dcdcdc;
+
+}
+.swiper-slide{
+  overflow: auto;
+}
+.dealList{
+  width:100%;
+  padding: 0 0.18rem;
+  margin-bottom: 0.62rem;
+}
+.dealList li{
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 0.12rem;
+  padding-top:0.12rem;
+}
+.dealList li h3,.dealList li p{
+  padding:0 0.12rem
+}
+.dealList li h3{
+  color: #333;
+  font-size:0.15rem;
+  margin-bottom: 0.11rem;
+}
+.dealList li p{
+  font-size:0.14rem;
+  color: #aaa;
+  line-height: 0.22rem;
+  display: flex;
+}
+.dealList li p span{
+  display: inline-block;
+  width: 0.98rem;
+}
+.dealList li p i{
+  flex: 1;
+}
+.delete{
+  height:0.4rem;
+  width:100%;
+  border-top:1px solid #dcdcdc;
+  color: #797979;
+  font-size:0.14rem;
+  text-align: center;
+  line-height: 0.4rem;
+  margin-top: 0.15rem;
+}
+.dealList .padB15{
+  padding-bottom:0.15rem;
+}
+.setting{
+  height:0.4rem;
+  display: flex;
+  border-top: 1px solid #dcdcdc;
+}
+.setting span{
+  flex: 1;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size:0.14rem;
+}
+.borderRight{
+  border-right:1px solid #dcdcdc;
+}
+.modify{
+  color: #797979;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,354 @@
+.bgF{
+  background: #fff;
+}
+.workroom{
+  height:100%;
+  width:100%;
+  position: relative;
+}
+.banner{
+  height:1.35rem;
+  width:100%;
+  background: url("../../images/img4.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+.bannerFilter{
+  position: absolute;
+  left: 0;
+  top:0;
+  height:100%;
+  width:100%;
+  background: rgba(18,19,25,.7);
+}
+.headImg{
+  width:0.84rem;
+}
+.headName{
+  width:1.61rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.headSetting{
+  width: 1.31rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.bannerHead{
+  z-index:10;
+}
+.headPic{
+  height:0.66rem;
+  width:0.66rem;
+  border-radius: 50%;
+  border:0.03rem solid rgba(255,255,255,0.2);
+  margin-top: 0.34rem;
+  margin-left: 0.18rem;
+}
+.headName span{
+  font-size:0.15rem;
+  margin-left: 0.12rem;
+}
+.headName p{
+  font-size:0.12rem;
+  margin-left: 0.12rem;
+}
+.headSetting p{
+  background: url("../../images/icon/go@2x.png") no-repeat 0.968rem center;
+  background-size: 0.06rem 0.1rem;
+}
+
+.workroomAll{
+  position: absolute;
+  top:1.35rem;
+  left: 0;
+  width:100%;
+}
+.workroomAll2{
+  position: absolute;
+  top:1.35rem;
+  left: 0;
+  width:100%;
+}
+.workType{
+  height: 1.88rem;
+  margin-top: 0.12rem;
+  background: #ffffff;
+}
+.workList{
+  width: 25%;
+  float: left;
+  height: 0.94rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.workListBr{
+  border-right: 1px solid #dcdcdc;
+}
+.workListBb{
+  border-bottom: 1px solid #dcdcdc;
+}
+.workList img{
+  height:0.25rem;
+  width:0.25rem;
+}
+.workList span{
+  font-size:0.12rem;
+  color: #333;
+  margin-top: 0.12rem;
+}
+.tipsNumber{
+  position: absolute;
+  display: inline-block;
+  height: 0.13rem;
+  width:0.13rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.13rem;
+  font-size:0.08rem;
+  background: #e1736c;
+  border-radius: 50%;
+  font-weight:normal;
+  top: 0.15rem;
+  left: 0.53rem;
+}
+.myRecord{
+  height: 1.81rem;
+  background: #fff;
+  margin-top: 0.12rem;
+}
+.myRecord ul{
+  height:100%;
+  width:100%;
+  position: relative;
+}
+.myRecord ul li{
+  height:0.6rem;
+  margin-left: 15.4%;
+  line-height: 0.6rem;
+  font-size: 0.15rem;
+  color: #333;
+}
+.recordIcon{
+  display: inline-block;
+  height:0.18rem;
+  width:0.18rem;
+  background: url("../../images/icon/record@2x.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+}
+.percent{
+  font-size:0.12rem;
+  color: #aaa;
+}
+.myRecord ul li b{
+  font-weight: normal;
+  font-size:0.14rem;
+  color: #797979;
+  margin-right: 0.18rem;
+}
+.myRecord2 ul li b{
+  font-weight: normal;
+  font-size:0.14rem;
+  color: #797979;
+  margin-right: 0.18rem;
+}
+.colRed{
+  color: #fa716a;
+}
+.colBlue{
+  color: #93a8f2;
+}
+
+.thisMoney{
+  background: #fff;
+  height: 0.6rem;
+  display: flex;
+}
+.moneyIcon{
+  width: 0.57rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.moneyIcon img{
+  height:0.18rem;
+  width:0.18rem;
+}
+.moneyRight{
+  flex: 1;
+}
+.moneyRight .weui-cell{
+  height:100%;
+  width:100%;
+  padding-left: 0;
+}
+.workLast{
+  margin: 0.12rem 0;
+}
+
+.myRecord2{
+  height: 1.21rem;
+  background: #fff;
+  margin-top: 0.12rem;
+}
+.myRecord2 ul{
+  height:100%;
+  width:100%;
+  position: relative;
+}
+.myRecord2 ul li{
+  height:0.6rem;
+  margin-left: 15.4%;
+  line-height: 0.6rem;
+  font-size: 0.15rem;
+  color: #333;
+}
+
+
+
+
+.countCard{
+  height: 1.77rem;
+  background:#6180ec ;
+  padding-left: 0.18rem;
+}
+.cardTop{
+  height:0.95rem;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardBottom{
+  height:0.82rem;
+  display: flex;
+}
+.cardTop h1{
+  font-size:0.3rem;
+  color: #fff;
+  font-weight: normal;
+}
+.cardTop span{
+  font-size:0.13rem;
+  color: rgba(255,255,255,.5);
+}
+.signNum{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signNum h3{
+  color: #fff;
+  font-size:0.15rem;
+  font-weight: normal;
+}
+.signNum span{
+  color: rgba(255,255,255,.5);
+  font-size:0.13rem;
+}
+
+.wrap{
+  height:100%;
+  width:100%;
+}
+.bgGray{
+  background: #f8f8f8;
+}
+.countList{
+  margin-top: 0.12rem;
+}
+.wrapAuto{
+  overflow: auto;
+}
+
+
+.reportList{
+  margin-bottom: 0.12rem;
+}
+.reportName{
+  padding:  0.2rem 0.2rem 0 0.18rem;
+  font-size: 0.17rem;
+  color: #000000;
+}
+.checkCustom{
+  line-height: 0.45rem;
+  text-align: center;
+  color: #547eef;
+  font-size:0.13rem;
+}
+.reportTime,.reportDetail{
+  padding: 0 0.2rem 0 0.18rem;;
+  font-size: 0.13rem;
+  color: #a9a9a9;
+  margin-bottom: 0.12rem;
+}
+.reportTime{
+  padding: .14rem 0.2rem 0.12rem 0.18rem;
+  margin-bottom: 0;
+}
+.newActive{
+  background: #fafafa;
+}
+.weui-cells:before{
+  content: " ";
+  position: absolute;
+  left:0.18rem;
+  right: 0;
+  height: 1px;
+  color: #d9d9d9;
+}
+
+.reportTimeList .weui-cells:after{
+  left:15px;
+}
+
+.customBox{
+  height:100%;
+  //width:100%;
+  padding: 0 0.18rem;
+}
+.customBox ul{
+  background: #fff;
+  padding: .18rem;
+  margin-bottom: 0.12rem;
+}
+.customBox ul h2{
+  font-size:0.15rem;
+  color: #333;
+  font-weight: normal;
+  line-height: 0.5rem;
+}
+.customBox ul li{
+  line-height: .22rem;
+  font-size:0.14rem;
+  color: #aaa;
+  display: flex;
+  position: relative;
+}
+.customBox ul li span{
+  width:1.1rem;
+}
+.customBox ul li i{
+  flex: 1;
+}
+.pt12{
+  padding-top: 0.12rem;
+}
+.telBtn{
+  height:0.15rem;
+  width:0.15rem;
+  position: absolute;
+  right:1rem;
+  top:0.03rem;
+}

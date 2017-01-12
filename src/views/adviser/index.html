@@ -1,0 +1,141 @@
+<div class="wraps wrapflex">
+    <div class="customBar">
+        <img src="../../../images/icon/filter.png" alt="" class="filterBtn"/>
+        客户管理
+        <img src="../../../images/icon/search2.png" alt="" class="searchBtn"/>
+        <img src="../../../images/icon/add.png" alt="" class="addBtn"/>
+    </div>
+    <div class="customBottom wrapauto">
+        <div class="addBox">
+            <span class="addUser">添加用户</span>
+            <span class="addressList">通讯录导入</span>
+        </div>
+        <div class="filter">
+            <div class="filterTab">
+                <span class="activeFilter filterAll">综合</span>
+                <span class="filterNumber">投资笔数</span>
+                <span class="filterMoney">投资金额</span>
+            </div>
+            <div class="filterPanel">
+                <div class="filterP panel1"></div>
+                <div class="filterP panel2" style="display: none">
+                    <span>投资笔数由高到低</span>
+                    <span>投资笔数由低到高</span>
+                </div>
+                <div class="filterP panel3" style="display: none">
+                    <span>投资金额由高到低</span>
+                    <span>投资金额由低到高</span>
+                </div>
+            </div>
+        </div>
+        <div class="filterBox">
+
+        </div>
+        <div class="Custom noCustom"  style="display: none">
+            <div class="cusImg">
+                <img src="../../../images/nocont.png" alt=""/>
+            </div>
+            <h2 class="cusTitle">帮您高效的管理客户！</h2>
+            <p class="cusCon">通讯录导入 / 分类管理 / 实时跟进 / 智能提醒</p>
+            <div class="atdCusBtn">添加客户</div>
+        </div>
+        <div class="Custom haveCustom wrapflex">
+            <div class="cusTop">
+                <span class="tabBtn borderR colBlue2 btn1">全部客户(5)</span>
+                <span class="tabBtn btn2">再投客户（3）</span>
+            </div>
+            <div class="cusBottom wrapauto">
+                <div class="custom1">
+                    <ul class="allCus myCus">
+                        <li @click="jumpUserInfo()">
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                            <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                            <img src="../../../images/icon/edit.png" alt="" class="editBtn" @click="jumpUser()"/>
+                        </li>
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                            <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                            <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                        </li>
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                            <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                            <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                        </li>
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                            <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                            <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                        </li>
+                        <li class="noBorder">
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                            <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                            <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                        </li>
+                    </ul>
+                    <p class="lostTitle">
+                        已失效客户 <i>已被分配给其他理财顾问</i>
+                    </p>
+                    <ul class="allCus lostCus">
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                        </li>
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                        </li>
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                        </li>
+                        <li>
+                            <span>李毅</span>
+                            <i>15666666666</i>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="custom2" style="display: none">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>李毅</td>
+                            <td>5笔</td>
+                            <td>150万</td>
+                            <td>
+                                <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                                <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>李毅</td>
+                            <td>5笔</td>
+                            <td>150万</td>
+                            <td>
+                                <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                                <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>李毅</td>
+                            <td>8笔</td>
+                            <td>190万</td>
+                            <td>
+                                <img src="../../../images/icon/tel.png" alt="" class="telBtn"/>
+                                <img src="../../../images/icon/edit.png" alt="" class="editBtn"/>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

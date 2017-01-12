@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>审核结果</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/review.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <div class="waitBox waitSuc">
+        <div class="waitmsg">
+            <div class="weui-msg__icon-area"><i class="weui-icon-warn weui-icon_msg"></i></div>
+        </div>
+        <h1 class="msgTitle">抱歉，您的理财顾问账号未审核通过！</h1>
+        <h2 class="msgRemark">不符合本公司独立理财师要求！</h2>
+    </div>
+    <div class="waitBox waitFail" style="display: none">
+        <div class="waitmsg">
+            <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+        </div>
+        <h1 class="msgTitle">恭喜，您的理财顾问账号通过审核！</h1>
+        <h2 class="msgRemark">符合本公司独立理财师要求！</h2>
+    </div>
+</div>
+
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+</body>
+</html>

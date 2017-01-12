@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>找回密码</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/form.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <form action="" class="wrapForm">
+        <div class="weui-cell weui-cell_boder">
+            <div class="weui-cell__hd"><label class="weui-label">设置密码</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="password" placeholder="请设置密码" v-model="passwd2" maxlength="16" v-bind="setPass()"/>
+            </div>
+        </div>
+        <div class="weui-cell weui-cell_boder border_bottom">
+            <div class="weui-cell__hd"><label class="weui-label">确认密码</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="password" placeholder="请确认密码" v-model="passwd3" v-bind="confirmPass()"/>
+            </div>
+        </div>
+        <div v-if="" class="weui-btn weui-btn_primary formBtn" @click="passNext()">下一步</div>
+        <div v-else class="weui-btn weui-btn_disabled weui-btn_primary formBtn">下一步</div>
+
+    </form>
+
+</div>
+
+
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+</body>
+</html>

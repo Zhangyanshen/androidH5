@@ -1,0 +1,46 @@
+.waitmsg{
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.msgTitle,.msgRemark{
+  text-align: center;
+  font-weight: normal;
+}
+.msgTitle{
+  font-size: 0.2rem;
+  color: #000;
+}
+.msgRemark{
+  color: #888;
+  font-size:0.14rem;
+  margin-top: 0.1rem;
+}
+.wrap{
+  height:100%;
+  width:100%;
+  position: relative;
+}
+.bgGray{
+  background: #efeff4;
+}
+.waitBox{
+  height:100%;
+  width:100%;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.titleRemark{
+  margin: 0;
+  padding: 0.18rem;
+  font-size:0.14rem;
+  color: #888;
+  line-height: 0.18rem;
+}
+.weui-cell{
+  background: #fff;
+}
+.formBtn{
+  margin: 0.3rem 0.18rem 0;
+
+}

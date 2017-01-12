@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>个人信息</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/personSetting.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="headTop">
+            <div class="headImg" id="headImg">
+                <img src="../images/edit.png" class="edit" alt=""/>
+                <!-- 头像占位-->
+                <img src="" alt="" class="upload_img" id="upload_img"/>
+                <input id="uploaderInput" onchange="createImg()"  class="uploader" type="file" accept="image/*" multiple/>
+            </div>
+            <span class="personName">张看三</span>
+        </div>
+        <div class="headBottom bgF">
+            <div class="system_list modifyList">
+                <span class="icons">
+                    <img src="../images/phone.png" alt="" />
+                </span>
+                <a class="weui-cell weui-cell_access" href="./modify.html">
+                    <div class="weui-cell__bd">
+                        <p>手机号</p>
+                    </div>
+                    <div class="weui-cell__ft myPhone">15855555555</div>
+                </a>
+            </div>
+            <div class="system_list modifyList">
+                <span class="icons">
+                    <img src="../images/phone.png" alt="" />
+                </span>
+                <a class="weui-cell weui-cell_access cloumnFlex" href="./personIntroduce.html">
+                    <div class="listBox">
+                        <div class="weui-cell__bd">
+                            <p>个人介绍</p>
+                        </div>
+                        <div class="weui-cell__ft"></div>
+                    </div>
+
+                    <div class="introduce">
+                        有多年金融行业经验，具有丰富的理财业务知识，熟知各项理财产品，能根据市场变化
+                    ，兼顾客户个人变化，为其提供个性化服务。
+                    </div>
+                </a>
+            </div>
+            <div class="system_list modifyList">
+                <span class="icons"><img src="../images/clock.png" alt="" /></span>
+                <a class="weui-cell weui-cell_access" href="./modifyPass.html">
+                    <div class="weui-cell__bd">
+                        <p>修改登录密码</p>
+                    </div>
+                    <div class="weui-cell__ft"></div>
+                </a>
+            </div>
+            <div class="system_list modifyList">
+                <span class="icons"><img src="../images/clock.png" alt="" /></span>
+                <a class="weui-cell weui-cell_access" href="./versionInfo.html">
+                    <div class="weui-cell__bd">
+                        <p>版本信息</p>
+                    </div>
+                    <div class="weui-cell__ft"></div>
+                </a>
+            </div>
+        </div>
+        <input type="button" class="exitBtn" @click="exit()" value="退出">
+    </div>
+</body>
+</html>
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>

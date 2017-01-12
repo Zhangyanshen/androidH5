@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>客户详情-编辑</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/custom.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="addCusTop">
+            客户详情
+            <span class="saveCusBtn" @click="saveUserInfo()">保存</span>
+            <!--<img src="../images/icon/add.png" alt="" class="addCusBtn" @click="addTalkRecord()"/>-->
+        </div>
+        <div class="editTop">
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" value="张看三"/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" value="15666663333"/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">客户来源</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">员工推荐</option>
+                        <option value="2">老客户推荐</option>
+                        <option value="3">市场活动</option>
+                        <option value="4">电话销售</option>
+                        <option value="5">内部员工</option>
+                        <option value="6">销售人员自由资源</option>
+                        <option value="7">老客户续投</option>
+                        <option value="8">其他销售方式</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="editBottom">
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">性别</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">男</option>
+                        <option value="2">女</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">邮箱</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" value="1673562@163.com"/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">联系时间</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">工作日上班时间</option>
+                        <option value="2">工作日非上班时间 18:00-22:00</option>
+                        <option value="3">节假日 10:00-18:00</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label for="" class="weui-label">出生日期</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="date" value=""/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label for="" class="weui-label">生日提醒</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="date" value=""/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">投资金额</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" value="3000"/>
+                </div>
+                <span class="grayCol">万元</span>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">客户意向</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">非常有意向</option>
+                        <option value="2">较有意向</option>
+                        <option value="3">一般需继续了解</option>
+                        <option value="4">可能性较小或尚未明确情况</option>
+                        <option value="5">可能性极小或不可能</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">投资偏好</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">非常有意向</option>
+                        <option value="2">较有意向</option>
+                        <option value="3">一般需继续了解</option>
+                        <option value="4">可能性较小或尚未明确情况</option>
+                        <option value="5">可能性极小或不可能</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">备注</label></div>
+                <div class="weui-cell__bd">
+                <textarea name="" id="" cols="30" rows="10" class="remark" placeholder="备注">
+
+                </textarea>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+<script src="../dist/js/talkRecord.js"></script>

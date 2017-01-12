@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>日历提醒</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/calendar.css"/>
+</head>
+<body>
+<div class="wrap bgf8">
+    <div class="addCusTop">
+        日历提醒
+        <span class="infoCusBtn" @click="jumpEdit()">保存</span>
+    </div>
+    <div class="editCalendar">
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+            <div class="weui-cell__hd">
+                <label for="" class="weui-label">提醒类别</label>
+            </div>
+            <div class="weui-cell__bd">
+                <select class="weui-select" name="select2">
+                    <option value="1">日常沟通</option>
+                    <option value="2">投资意向</option>
+                    <option value="3">通知</option>
+                    <option value="4">生日提醒</option>
+                    <option value="5">产品提醒</option>
+                    <option value="6">预约提醒</option>
+                    <option value="7">客户提醒</option>
+                    <option value="8">投后提醒</option>
+                    <option value="9">合作提醒</option>
+                    <option value="10">其他</option>
+                </select>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">客户姓名</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" placeholder="请选择客户" value="张三"/>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><label for="" class="weui-label">提醒日期</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="date" value="2017-01-10"/>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">备注</label></div>
+            <div class="weui-cell__bd">
+                <textarea class="remark" name="" id="" cols="30" rows="10" placeholder="沟通方式/地址/意向等" >就是这样啦</textarea>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+<script src="../dist/js/calendarEdit.js"></script>

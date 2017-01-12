@@ -1,0 +1,185 @@
+.wrap{
+  height:100%;
+  width:100%;
+  background: #f8f8f8;
+}
+.wrapFlex{
+  display: flex;
+  flex-direction: column;
+}
+.inviteTop{
+  height:0.45rem;
+  background: #fff;
+  line-height: 0.45rem;
+  z-index:3;
+}
+.inviteTop span{
+  display: inline-block;
+  float: left;
+  width:50%;
+  text-align: center;
+  position: relative;
+  font-size:0.14rem;
+  color: #333;
+}
+.inviteTop .inviteActive{
+  color: #547eef;
+}
+.borderRight:after{
+  position: absolute;
+  right:0;
+  content:'';
+  height:0.2rem;
+  width:1px;
+  background: #eeeeee;
+  top:0.12rem;
+}
+.inviteBottom{
+  flex: 1;
+  position: relative;
+  overflow: auto;
+}
+.opacity{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,.6);
+}
+.blurFilter{
+  position: fixed;
+  top:0;
+  height:100%;
+  width:100%;
+  background: url("../../images/img4.jpg") center no-repeat;
+  background-size: cover;
+  filter:blur(3px);
+}
+.inviteInfo{
+  position: relative;
+  height:1.3rem;
+  width:100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inviteHeadImg{
+  height:0.7rem;
+  width:0.7rem;
+  border-radius: 50%;
+  margin-left: 0.18rem;
+  margin-right: 0.13rem;
+
+}
+.inviteTelImg{
+  float: right;
+  height:0.38rem;
+  width:0.38rem;
+  margin: 0 0.18rem;
+}
+.content{
+  position: relative;
+  color: rgba(255,255,255,.7);
+  padding: 0 0.18rem;
+  line-height: 0.22rem;
+  font-size: 0.13rem;
+  margin-bottom: 0.55rem;
+}
+
+.shareBtn{
+  width:100%;
+  position: fixed;
+  bottom: 0;
+  height:0.45rem;
+  background: #547eef;
+  color: #fff;
+  text-align: center;
+  line-height: 0.45rem;
+}
+.allMoney{
+  height: 0.42rem;
+  line-height: 0.5rem;
+  padding-left: 0.18rem;
+  font-size:0.14rem;
+  color: #797979;
+}
+.allList{
+  padding-left: 0.18rem;
+  background: #fff;
+}
+.colBlue{
+  color: #547eef;
+}
+.allList p{
+  line-height: 0.44rem;
+  color: #aaa;
+}
+.allList p i{
+  float: right;
+  margin-right: 0.18rem;
+}
+.allList li{
+  height:0.6rem;
+  border-top: 1px solid #eeeeee;
+  line-height: 0.6rem;
+  position: relative;
+}
+.allList li span{
+  margin-top: 0.07rem;
+  display: block;
+  line-height: 0.25rem;
+  width: 60%;
+  color: #333;
+  font-size: 0.15rem;
+}
+.allList li b{
+  font-weight: normal;
+  display:block;
+  line-height: 0.25rem;
+  width: 60%;
+  color: #797979;
+  font-size: 0.14rem;
+}
+.allList li i{
+  position: absolute;
+  right: 0.18rem;
+  top: 0;
+  color: #797979;
+  font-size: 0.14rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

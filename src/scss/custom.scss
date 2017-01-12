@@ -1,0 +1,246 @@
+.wrap{
+  height:100%;
+  width:100%;
+  background: #f8f8f8;
+}
+.wrapFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapAuto{
+  overflow: auto;
+}
+.customerInfo{
+  //height:1.32rem;
+  background: #fff;
+}
+.customerInfo ul{
+  padding-left: 0.18rem;
+}
+.customerInfo ul li{
+  display: flex;
+  line-height: 0.44rem;
+  border-bottom:1px solid #e5e5e5;
+}
+.customerInfo ul li span{
+  width:0.88rem;
+}
+.customerInfo ul li i{
+  flex: 1;
+}
+
+.customerInfo ul li:nth-last-child(1){
+  border:none;
+}
+.cusBottom{
+  margin-top: 0.12rem;
+}
+
+.editTop{
+  background: #fff;
+}
+.pt12{
+  padding-top: 0.12rem;
+}
+
+.editBottom{
+  margin-top: 0.12rem;
+  background: #fff;
+}
+
+.remark{
+  border:none;
+  height:0.75rem;
+  padding: 0.12rem;
+  resize: none;
+  text-align: left;
+}
+.cusTop,.editTop{
+  margin-top: 0.6rem;
+}
+.customInfo{
+  //background: #fff;
+  margin-top: 0.6rem;
+  flex: 1;
+}
+.customInfo ul{
+  background: #fff;
+}
+.customInfo .infoFirst{
+  height:0.61rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameLeft{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.18rem;
+}
+.iconAll{
+  padding-right: 0.06rem;
+}
+.iconAll img{
+  height:0.18rem;
+  width:0.18rem;
+  margin-right: 0.1rem;
+}
+.col79{
+  color: #797979;
+}
+.col33{
+  color: #333;
+}
+.colRed{
+  color: #fa716a;
+}
+.customInfo ul li{
+  position: relative;
+}
+.customInfo ul li:after{
+  content:'';
+  position: absolute;
+  left:4%;
+  bottom:0;
+  width:96%;
+  height:1px;
+  background: #f5f5f5;
+}
+.customInfo ul li:nth-last-child(1):after{
+  content:'';
+  position: absolute;
+  left:4%;
+  bottom:0;
+  width:0;
+  height:0;
+  background: #f5f5f5;
+}
+.origin{
+  width: 0.8rem;
+}
+.originRemark{
+  color: #aaa;
+  font-size:0.11rem;
+  max-width: 2.5rem;
+}
+.addCusBottom{
+  flex: 1;
+  overflow: auto;
+}
+.bottomTop,.bottomB{
+  background: #fff;
+}
+.bottomB{
+  margin-top: 0.12rem;
+}
+.sex span{
+  display: flex;
+  width:30%;
+  float: left;
+}
+.sex i{
+  display: inline-block;
+  height:0.23rem;
+  width:0.23rem;
+  background: url("../../images/icon/radio2@2x.png") no-repeat center;
+  background-size: cover;
+  margin-right: 0.12rem;
+}
+.sex .checked{
+  background: url("../../images/icon/radio@2x.png") no-repeat center;
+  background-size: cover;
+}
+
+
+.searchBox{
+  height:0.44rem;
+  background: #547eef;
+  color: #fff;
+  display: flex;
+  padding: 0 0.1rem;
+  align-items: center;
+}
+.searchCon{
+  flex: 1;
+}
+.searchBar{
+  width: 84.8%;
+  height:.29rem;
+  position: relative;
+}
+.searchBar img{
+  position: absolute;
+  height:0.125rem;
+  width:0.125rem;
+  top:0.08rem;
+  left:0.09rem;
+}
+.searchBar input{
+  height:100%;
+  width:100%;
+  border:none;
+  border-radius: 5px;
+  padding-left: 0.28rem;
+  font-size:0.13rem;
+  color: #333;
+}
+.searchBtn{
+  padding-left: 0.12rem;
+  font-size:0.14rem;
+}
+.searchCon{
+}
+.searchCon ul{
+  background: #fff;
+}
+.searchCon ul li{
+  margin-left: 0.18rem;
+  height:0.61rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.searchCon ul li:after{
+  content:'';
+  height:1px;
+  width:100%;
+  background: #f5f5f5;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+.searchCon ul li:nth-last-child(1):after{
+  content:'';
+  height:0;
+  width:0;
+  background: #f5f5f5;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+.searchCon .name{
+  color: #333;
+  font-size:0.15rem;
+}
+.searchCon .tel{
+  color: #797979;
+  font-size:0.14rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

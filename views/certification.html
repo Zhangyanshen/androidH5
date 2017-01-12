@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>实名认证</title>
+    <link rel="stylesheet" href="../dist/css/reset.css"/>
+    <link rel="stylesheet" href="../vender/weui/weui.min.css"/>
+    <link rel="stylesheet" href="../dist/css/review.css"/>
+    <script src="../vender/weui/weui.min.js"></script>
+</head>
+<body>
+<div class="wrap bgGray">
+    <div class="weui-cells__title titleRemark">为保障用户的账号及资金安全，平台会对所有投资人进行身份验证，以保证投资人的个人身份信息真实有效。身份信息一经认证不可修改。</div>
+    <form action="" class="orderForm">
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" placeholder="请填写真实姓名" v-model="username"/>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" placeholder="请填写真实有效身份证号" v-bind="isCardTest()" v-model="idCard"/>
+            </div>
+        </div>
+        <a v-if="(this.username).length > 0 && (this.idCard).length>=15 " href="javascript:;" class="weui-btn weui-btn_primary formBtn" @click="submitOrder()">提交预约</a>
+        <a v-else href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_primary formBtn">提交预约</a>
+    </form>
+</div>
+
+<script src="../dist/js/jquery-1.12.3.min.js"></script>
+<script src="../dist/js/vue.min.js"></script>
+<script src="../dist/js/common.js"></script>
+</body>
+</html>

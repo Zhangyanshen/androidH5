@@ -1,0 +1,44 @@
+.wrap{
+  height:100%;
+  width:100%;
+}
+.wrapForm{
+  padding: 0.4rem 0.18rem 0 0.18rem;
+}
+.codeImg{
+  height:100%;
+  width:100%;
+  background: #ddd;
+}
+.weui-cell{
+  height:0.44rem;
+}
+.codeInput{
+  height:100%;
+}
+.codeImg{
+  height:0.3rem;
+  width:0.7rem;
+}
+.formBtn{
+  margin-top: 0.3rem;
+}
+.lastDiv{
+  margin-top: 0.18rem;
+}
+.lastDiv a{
+  font-size:0.13rem;
+  color: #6a7fa6;
+}
+.border_bottom:after{
+  content : '';
+  height:1px;
+  width:100%;
+  position: absolute;
+  right:0;
+  left: 15px;
+  background: #eee;
+  bottom: 0;
+}
+
+

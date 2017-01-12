@@ -1,0 +1,84 @@
+.wrap{
+  width:100%;
+  background: #f8f8f8;
+  height:100%;
+}
+.wrapFlex{
+  display: flex;
+  flex-direction: column;
+}
+.wrapAuto{
+  overflow: auto;
+}
+.bgF{
+  background: #fff;
+}
+.pad12{
+  padding-top: 0.12rem;
+}
+.communicate{
+  background: #fff;
+  padding-left: 0.18rem;
+  margin-bottom: 0.12rem;
+}
+.communicate li{
+  min-height: 0.43rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+.communicate li span{
+  width: 0.95rem;
+}
+.communicate li i{
+  flex: 1;
+  font-size:0.15rem;
+  color: #797979;
+}
+
+.pad12{
+  padding: 0.12rem 0;
+  line-height: 0.16rem;
+}
+.communicate .noBorder{
+  border:none;
+}
+
+.investName{
+  height:0.6rem;
+  padding-left: 0.16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.investName h2{
+  font-size:0.14rem;
+  color: #333;
+}
+.investName p{
+  color: #aaa;
+  font-size:0.12rem;
+  margin-top: 0.05rem;
+}
+.investName img{
+  position: absolute;
+  right:0;
+  top:0;
+  height:0.42rem;
+  width:0.42rem;
+}
+.investList{
+  background: #fff;
+  margin-bottom: 0.12rem;
+}
+
+
+
+
+
+
+
+
+
+
